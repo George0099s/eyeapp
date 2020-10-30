@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Healthy EYE</string>
+    <string name="exercises_string">Упражнения</string>
+    <string name="exercises_group1">Группа упражнений 1</string>
+    <string name="exercises_group2">Группа упражнений 2</string>
+    <string name="exercises_group3">Группа упражнений 3</string>
+</resources>
