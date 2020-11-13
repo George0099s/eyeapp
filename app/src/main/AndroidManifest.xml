@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.group3p1.healthyEye">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".presentation.ui.exercises.ExerciseDetail"></activity>
+        <activity android:name=".presentation.ui.exercises.AddExerciseActivity"></activity>
+        <activity android:name=".presentation.ui.exercises.ExerciseDetail" />
         <activity android:name=".presentation.ui.exercises.ExerciseList" />
         <activity android:name=".presentation.ui.main.ExercisesActivity" />
         <activity android:name=".presentation.ui.main.MainActivity">

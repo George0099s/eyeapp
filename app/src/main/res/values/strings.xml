@@ -4,4 +4,8 @@
     <string name="exercises_group1">Группа упражнений 1</string>
     <string name="exercises_group2">Группа упражнений 2</string>
     <string name="exercises_group3">Группа упражнений 3</string>
+    <string name="add_exercise_string">Добавить свое упражнение</string>
+    <string name="add_string">Добавить</string>
+    <string name="description_string">Описание</string>
+    <string name="title_string">Название</string>
 </resources>
