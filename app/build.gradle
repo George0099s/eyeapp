@@ -44,6 +44,13 @@ dependencies {
 
     //firebase
     implementation platform('com.google.firebase:firebase-bom:26.1.0')
+
+    //vm
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0"
+    // Lifecycles only (without ViewModel or LiveData)
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0"
 }
 repositories {
     mavenCentral()

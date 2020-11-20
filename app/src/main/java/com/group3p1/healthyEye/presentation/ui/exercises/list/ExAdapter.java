@@ -1,4 +1,4 @@
-package com.group3p1.healthyEye.presentation.ui.exercises;
+package com.group3p1.healthyEye.presentation.ui.exercises.list;
 
 import android.view.LayoutInflater;
 import android.view.View;

@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.group3p1.healthyEye.R;
-import com.group3p1.healthyEye.presentation.ui.exercises.ExerciseList;
+import com.group3p1.healthyEye.presentation.ui.exercises.list.ExerciseList;
 
 public class ExercisesActivity extends AppCompatActivity implements View.OnClickListener {
     private Button group1, group2, group3;

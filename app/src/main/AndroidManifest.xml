@@ -12,8 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".presentation.ui.exercises.AddExerciseActivity"></activity>
-        <activity android:name=".presentation.ui.exercises.ExerciseDetail" />
-        <activity android:name=".presentation.ui.exercises.ExerciseList" />
+        <activity android:name=".presentation.ui.exercises.detail.ExerciseDetail" />
+        <activity android:name=".presentation.ui.exercises.list.ExerciseList" />
         <activity android:name=".presentation.ui.main.ExercisesActivity" />
         <activity android:name=".presentation.ui.main.MainActivity">
             <intent-filter>
