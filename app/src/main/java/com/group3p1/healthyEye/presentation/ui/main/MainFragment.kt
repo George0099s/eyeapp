@@ -9,12 +9,15 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import com.google.android.material.transition.MaterialSharedAxis
 import com.group3p1.healthyEye.R
+import com.group3p1.healthyEye.presentation.ui.weather.WeatherFragment
+import kotlinx.android.synthetic.main.main_fragment.*
 
 
 class MainFragment : Fragment() {
 
     private var exercises: Button? = null
     private var about: Button? = null
+    private var weather: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,6 +37,7 @@ class MainFragment : Fragment() {
         val view = inflater.inflate(R.layout.main_fragment, container, false)
         exercises = view.findViewById(R.id.exercises)
         about = view.findViewById(R.id.about)
+        weather = view.findViewById(R.id.weather)
         about?.setOnClickListener { view: View? ->
             requireFragmentManager()
                     .beginTransaction()
@@ -42,6 +46,15 @@ class MainFragment : Fragment() {
                     .addToBackStack("about")
                     .commit()
         }
+
+        weather?.setOnClickListener {
+            requireFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.main_cont, WeatherFragment())
+                    .addToBackStack("tag")
+                    .commit()
+        }
+
         exercises?.setOnClickListener { v: View? ->
             val intent = Intent(requireContext(), ExercisesActivity::class.java)
             startActivity(intent)

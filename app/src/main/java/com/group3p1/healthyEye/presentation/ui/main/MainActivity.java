@@ -17,6 +17,5 @@ public class MainActivity extends AppCompatActivity {
                 .replace(R.id.main_cont, new MainFragment(), MainFragment.class.getSimpleName())
                 .addToBackStack("MainFragment")
                 .commit();
-
     }
 }
